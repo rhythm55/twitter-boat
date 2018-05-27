@@ -50,7 +50,7 @@ def senti_analysis(hashtag):
             neutral += 1
         elif analyse.sentiment.polarity > 0:
             positive += 1
-    print("No of tweets for %s are: %d\nsentiments for this tweet are:\npositive:%d\nneutral:%d\nnegative:%d"%(hashtag,count,positive,neutral,negative))
+    print("No of tweets considered for %s are: %d\nsentiments for this tweet are:\npositive:%d\nneutral:%d\nnegative:%d"%(hashtag,count,positive,neutral,negative))
 
 
 def locations(hashtag):
